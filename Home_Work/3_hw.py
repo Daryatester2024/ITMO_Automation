@@ -48,5 +48,5 @@ print(list_numbers([1,2,3,-4,5]))
 
 
 def day_in_month (year:int, month:int):
-    print(month*29 + year*12)
-day_in_month(1,4)
+    print(month*29 + year*12*29)
+day_in_month(1,1)
