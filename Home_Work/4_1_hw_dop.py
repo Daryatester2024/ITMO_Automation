@@ -21,8 +21,13 @@ class Car:
         return 'тип автомобиля - {}'.format(self.type)
 
 car_1=Car('red', 'mazda',  2019)
+
 print(car_1.start())
+
 print(car_1.stop())
+
 print(car_1.car_age())
+
 print(car_1.car_type())
+
 print(car_1.car_color())
